@@ -8,25 +8,6 @@
     font-weight: normal;
 }
 
-.embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-   }
-   .embed-container iframe, .embed-container object, .embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-   }
-   
-
 :root {
     --cor0:#c5ebd6;
     --cor1:#83e1ad;  
@@ -173,19 +154,23 @@ main img.pequena {
     margin: auto;
 }
 
-div.video {
-    background-color: var(--cor5);
-    margin: 0px -20 30px -20px;
-    padding: 20px;
-    padding-bottom: 59%;
+.embed-container {
     position: relative;
-}
-div.video > iframe {
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+   .embed-container iframe, .embed-container object, .embed-container embed {
     position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    right: 90%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   }
 
 }
 aside {
